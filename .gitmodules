@@ -1,0 +1,3 @@
+[submodule "serial_plotter"]
+	path = serial_plotter
+	url = https://github.com/shiganai/serial_plotter
