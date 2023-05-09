@@ -6,6 +6,7 @@
 
 void setup() {
   Serial.begin(9600);
+  pinMode(A0, INPUT_PULLUP); //https://burariweb.info/electronic-work/arduino-tips/arduino-internal-pullup.html
   analogReadResolution(12);
 }
 
